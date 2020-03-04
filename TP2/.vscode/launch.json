@@ -1,0 +1,93 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.kvstore.Client",
+            "projectName": "protos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Server",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.kvstore.Server",
+            "projectName": "protos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.tcp.requestredirector.Client",
+            "projectName": "protos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.tcp.Client",
+            "projectName": "protos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainServer",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.tcp.requestredirector.MainServer",
+            "projectName": "protos",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FwsServer",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.tcp.requestredirector.FwdServer",
+            "projectName": "protos",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.udp.Client",
+            "projectName": "protos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Server",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.udp.Server",
+            "projectName": "protos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Server",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.Server",
+            "projectName": "protos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.Client",
+            "projectName": "protos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "ar.com.igrib.App",
+            "projectName": "protos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
