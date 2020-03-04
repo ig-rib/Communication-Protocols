@@ -1,0 +1,4 @@
+Una uri es absoluta, tiene todos los componentes (ver RFC 3986)
+Una relative uri es justamente relativa a la posicion actual, se asume que se tienen
+todos los detalles necesarios para conocer la URI del componente al que se hace 
+referencia con esta simplificacion.

@@ -1,0 +1,4 @@
+T1 (server)
+netcat -l [IP] [PORT]
+T2 (client)
+netcat [serverIP] [serverPORT]

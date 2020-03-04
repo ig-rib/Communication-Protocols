@@ -1,0 +1,9 @@
+http://abc.com:80/~smith/home.html
+http://ABC.com/%7Esmith/home.htm
+http://ABC.com/%7esmith/home.htm
+
+case insensitivity
+default port for HTTP is 80, if : left alone then that === :80
+html is the same as htm but those may not identify the same file
+nothing is said about their equivalence, but the filenames are different,
+so URIs 2 and 3 are the same and different from 1.

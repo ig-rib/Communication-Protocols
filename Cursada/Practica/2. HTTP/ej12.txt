@@ -1,0 +1,6 @@
+#fragment
+That part of the url indicates a secondary reference based on a resource.
+It is resolved by the user agent and separated from the rest of the uri before
+the latter is scheme-specifically processed.
+
+A classic example is its use in Wikipedia pages.
